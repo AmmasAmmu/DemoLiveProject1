@@ -70,4 +70,9 @@ public class Browser {
 		
 
 	}
+	
+	public static void openApplicationUrl() {
+		
+		Base.driver.get(Base.reader.getUrl());
+	}
 }
